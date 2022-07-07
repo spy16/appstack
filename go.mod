@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/99designs/gqlgen v0.17.12
 	github.com/go-chi/chi v1.5.4
-	github.com/spy16/moonshot v0.1.0
+	github.com/spy16/moonshot v0.1.1
 	github.com/vektah/gqlparser/v2 v2.4.6
 )
 

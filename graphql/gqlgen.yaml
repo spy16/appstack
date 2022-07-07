@@ -29,7 +29,7 @@ omit_slice_element_pointers: false
 # gqlgen will search for any type names in the schema in these go packages
 # if they match it will use them, otherwise it will generate them.
 autobind:
-  - "github.com/spy16/appstack/api/graphql/model"
+  - "github.com/spy16/appstack/graphql/model"
 
 models:
   ID:

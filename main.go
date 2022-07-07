@@ -8,7 +8,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/go-chi/chi"
-	"github.com/spy16/appstack/api/graphql"
+	"github.com/spy16/appstack/graphql"
 	"github.com/spy16/moonshot"
 )
 

@@ -1,9 +1,8 @@
 import Home from "../pages/Home";
-import Login from "../pages/Login";
 
 interface RouteType {
   path: string;
-  component: any;
+  Page: any;
   name: string;
   protected: boolean;
 }
@@ -11,15 +10,9 @@ interface RouteType {
 const routes: RouteType[] = [
   {
     path: "",
-    component: Home,
+    Page: Home,
     name: "Home Screen",
     protected: true,
-  },
-  {
-    path: "/login",
-    component: Login,
-    name: "Login Screen",
-    protected: false,
   },
 ];
 
